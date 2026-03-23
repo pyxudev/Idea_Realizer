@@ -1,0 +1,24 @@
+{
+  "name": "@ai-dashboard/worker",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@ai-dashboard/shared": "*",
+    "bullmq": "^5.4.0",
+    "pg": "^8.11.3",
+    "openai": "^4.28.0",
+    "@anthropic-ai/sdk": "^0.20.0",
+    "@google/generative-ai": "^0.3.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "@types/pg": "^8.11.0",
+    "@types/node": "^20.11.0"
+  }
+}
