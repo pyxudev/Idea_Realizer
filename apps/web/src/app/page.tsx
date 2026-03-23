@@ -74,7 +74,7 @@ export default function DashboardPage() {
             </svg>
           </div>
           <div>
-            <h1 className="text-lg font-extrabold text-slate-900 leading-tight">AI Idea Realizer</h1>
+            <h1 className="text-lg font-extrabold text-slate-900 leading-tight">Idea Realizer</h1>
             <p className="text-xs text-slate-400">Idea → Proposal → Spec → UI → Code</p>
           </div>
         </div>
