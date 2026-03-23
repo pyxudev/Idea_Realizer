@@ -1,7 +1,3 @@
-## 1) `README.md`（入口・言語切替）
-
-（このファイルをリポジトリ直下に置いてください）
-
 # AI Idea Realizer Dashboard
 
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)　[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://docs.docker.com/compose/)　[![Fastify](https://img.shields.io/badge/Fastify-Backend-000000?logo=fastify&logoColor=white)](https://fastify.dev/)　[![Next.js](https://img.shields.io/badge/Next.js-Frontend-000000?logo=next.js&logoColor=white)](https://nextjs.org/)　[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)　[![Redis](https://img.shields.io/badge/Redis-7-DC382D?logo=redis&logoColor=white)](https://redis.io/)　[![License](https://img.shields.io/github/license/pyxudev/Idea_Realizer)](./LICENSE)
@@ -12,15 +8,11 @@
 
 ## Languages / 语言 / 言語
 
-- English: [README.en.md](http://README.en.md)
-- 简体中文: [README.zh-CN.md](http://README.zh-CN.md)
-- 日本語: [README.ja.md](http://README.ja.md)
+[English](#ai-idea-realizer-dashboard) / [简体中文](#梦想实现机) / [日本語](#願望機)
 
 ---
 
-## 2) `README.en.md`（英語・ネイティブ寄り）
-
-# AI Idea Realizer Dashboard
+# Idea Realizer Dashboard
 
 A dashboard that automatically generates **Proposal → Spec → UI → Implementation** in four steps—just by entering an idea.
 
@@ -157,7 +149,7 @@ Each step uses the previous step’s output as input. If a step fails, you can r
 
 ---
 
-## AI Provider Configuration
+## Provider Configuration
 
 ```
 # OpenAI
@@ -198,9 +190,7 @@ Make sure the keys in `.env` are set correctly and that you still have quota ava
 
 ---
 
-## 3) `README.zh-CN.md`（简体中文）
-
-# AI Idea Realizer Dashboard
+# 梦想实现机
 
 只需输入一个想法，AI 就会自动生成四个步骤的产物：**Proposal → Spec → UI → Implementation**。
 
@@ -378,9 +368,7 @@ docker compose exec api node dist/db/migrate.js
 
 ---
 
-## 4) `README.ja.md`（日本語・整形＋バッジ導線）
-
-# AI Idea Realizer Dashboard
+# 願望機
 
 アイデアを入力するだけで、AIが **Proposal → Spec → UI → Implementation** の4ステップを自動生成するダッシュボードです。
 
